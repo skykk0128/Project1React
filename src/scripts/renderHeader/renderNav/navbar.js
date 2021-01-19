@@ -17,8 +17,8 @@ const renderNav = () => {
   const about = createNavItem('#about', 'About');
   const resume = createNavItem('#resume', 'Resume');
   const projects = createNavItem('#projects', 'Projects');
-  const contact = createNavItem('#contact', 'Contact');
   const blog = createNavItem('#blog', 'Blog');
+  const contact = createNavItem('#contact', 'Contact');
 
   nav.innerHTML = `
     <ul class="navbar__menu">
@@ -26,8 +26,8 @@ const renderNav = () => {
       ${createNavItem('#about', 'About')}
       ${createNavItem('#resume', 'Resume')}
       ${createNavItem('#projects', 'Projects')}
-      ${createNavItem('#contact', 'Contact')}
       ${createNavItem('#blog', 'Blog')}
+      ${createNavItem('#contact', 'Contact')}
     </ul>
   `;
 };

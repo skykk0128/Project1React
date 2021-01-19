@@ -12,10 +12,10 @@ p {
 
 .sticky {
   position: fixed;
-  left: 5%;
+  left: 0;
   top: 0;
-  width: 90%;
-  background-color: lightblue;
+  width: 100%;
+  background-color: white;
   z-index: 1;
   box-shadow: 0 10px 10px 0 rgba(211, 211, 211, 0.5), 0 10px 10px 0 rgba(211, 211, 211, 0.5);
 }
@@ -76,7 +76,7 @@ p {
 .navbar__menuitems {
   display: inline-block;
   text-decoration: none;
-  color: grey;
+  color: black;
   font-family: Arial;
   font-size: 20px;
 }
