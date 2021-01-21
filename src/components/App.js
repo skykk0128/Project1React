@@ -1,2 +1,129 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+const NavbarItem = ({
+  href,
+  children,
+}) => {
+  return (
+    <a href={href} className="navbar__menuitems" id="homepage" data-id="1">{children}</a>
+  );
+}
+
+
+const Navbar = () => (
+  <ul className="navbar__menu">
+    <NavbarItem href="#home" children="Home"/>
+    <NavbarItem href="#about" children="About"/>
+    <NavbarItem href="#resume" children="Resume"/>
+    <NavbarItem href="#projects" children="Projects"/>
+    <NavbarItem href="#blog" children="Blog"/>
+    <NavbarItem href="#contact" children="Contact"/>
+  </ul>
+);
+
+const Logo = () => {
+  return (
+    <div className="logo__wcrown">
+      <div className="logo__wcrown--top">
+        <div className="logo__top">
+        </div>
+        <div className="logo__top">
+        </div>
+      </div>
+      <div className="logo__wcrown--bottom">
+      </div>
+    </div>
+    <div className="logo__s">
+      S
+    </div>
+  );
+}
+
+const Nav = () => (
+  <header className="navbar navstyle" id="header">
+    <div className="navbar__logo">
+      <Logo />
+    </div>
+    <nav>
+      <Navbar />
+    </nav>
+  </header>
+);
+
+
+
+const App = () => (
+  <Nav />
+);
+
+
+ReactDOM.render(
+  <App />,
+  document.querySelector('#root'),
+);
+
+
+//
+// "use strict";
+//
+// const App = () => {
+//   return React.createElement("header", {
+//     class: "navbar navstyle",
+//     id: "header"
+//   }, React.createElement("div", {
+//     class: "navbar__logo"
+//   }, React.createElement("div", {
+//     class: "logo__wcrown"
+//   }, React.createElement("div", {
+//     class: "logo__wcrown--top"
+//   }, React.createElement("div", {
+//     class: "logo__top"
+//   }), React.createElement("div", {
+//     class: "logo__top"
+//   })), React.createElement("div", {
+//     class: "logo__wcrown--bottom"
+//   })), React.createElement("div", {
+//     class: "logo__s"
+//   }, "S")), React.createElement("nav", null, React.createElement("ul", {
+//     class: "navbar__menu"
+//   }, React.createElement("a", {
+//     href: "#home",
+//     class: "navbar__menuitems",
+//     id: "homepage",
+//     "data-id": "1"
+//   }, React.createElement("li", null, "Home")), React.createElement("a", {
+//     href: "#about",
+//     class: "navbar__menuitems",
+//     id: "aboutpage",
+//     "data-id": "2"
+//   }, React.createElement("li", null, "About")), React.createElement("a", {
+//     href: "#resume",
+//     class: "navbar__menuitems",
+//     id: "resumepage",
+//     "data-id": "3"
+//   }, React.createElement("li", null, "Resume")), React.createElement("a", {
+//     href: "#projects",
+//     class: "navbar__menuitems",
+//     id: "projectspage",
+//     "data-id": "4"
+//   }, React.createElement("li", null, "Projects")), React.createElement("a", {
+//     href: "#contact",
+//     class: "navbar__menuitems",
+//     id: "contactpage",
+//     "data-id": "5"
+//   }, React.createElement("li", null, "Contact")), React.createElement("a", {
+//     href: "#blog",
+//     class: "navbar__menuitems",
+//     id: "blogpage",
+//     "data-id": "6"
+//   }, React.createElement("li", null, "Blog")))));
+// };
+//
+// ReactDOM.render( React.createElement(App, null), document.querySelector('#root'));
+
+// <li><a href="#home" className="navbar__menuitems" id="homepage" data-id="1">Home</a></li>
+// <li><a href="#about" className="navbar__menuitems" id="aboutpage" data-id="2">About</a></li>
+// <li><a href="#resume" className="navbar__menuitems" id="resumepage" data-id="3">Resume</a></li>
+// <li><a href="#projects" className="navbar__menuitems" id="projectspage" data-id="4">Projects</a></li>
+// <li><a href="#blog" className="navbar__menuitems" id="blogpage" data-id="5">Blog</a></li>
+// <li><a href="#contact" className="navbar__menuitems" id="contactpage" data-id="6">Contact</a></li>
