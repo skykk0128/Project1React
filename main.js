@@ -67,6 +67,13 @@ render();
 //   document.getElementById("blogpage").classList.add("current");
 // });
 
+// const currentpage = () => {
+//   const pages = ["homepage", "aboutpage", "resumepage", "projectspage", "contactpage", "blogpage"];
+//   pages.forEach('click', event => {
+//     document.querySelectorAll()
+//   });
+// });
+
 // Changeable Position
 const changePosition = () => {
   window.switchIn = () => {

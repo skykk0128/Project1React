@@ -5,7 +5,7 @@ const render = () => {
   root.innerHTML = `
     <header id="header" class="navbar navstyle"></header>
     <main id="main"></main>
-    <footer id="footer" class="footer"></footer>
+    <footer id="footer"></footer>
   `;
 
   renderHeader();

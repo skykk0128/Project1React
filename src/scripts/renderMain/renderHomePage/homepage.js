@@ -5,15 +5,6 @@ const renderHomePage = () => {
     <div class="main__introduction">
       <div class="main__photo">
       </div>
-      <div class="main__about">
-        <h2>About Me</h2>
-        <p>I am a current IT student with experience in HTML5, CSS3, JavaScript (Vanilla, ES6), WordPress and Shopify Ruby on Rails as a full stack web developer,
-           where I also build my professional communication skills, teamwork skills and problem-solving and analytical skills.
-           I have professional knowledge of HTML, CSS, JavaScript and Java, and an understanding of the project management and Moodle system.
-        </p>
-      </div>
-    </div>
-    <div class="main__details">
       <div class="main__info">
         <h1>Shikai Wang (Steven)</h1>
         <div class="main__position--developer">
@@ -28,6 +19,15 @@ const renderHomePage = () => {
           <a href="https://www.facebook.com/liushisky/"><li><img src="src/assets/icon/facebook.svg" alt="facebook" class="main__icon"></li></a>
           <a href="https://twitter.com/Shikai_Steven"><li><img src="src/assets/icon/twitter.svg" alt="twitter" class="main__icon"></li></a>
         </ul>
+      </div>
+    </div>
+    <div class="main__details">
+      <div class="main__about">
+        <h2>About Me</h2>
+        <p>I am a current IT student with experience in HTML5, CSS3, JavaScript (Vanilla, ES6), WordPress and Shopify Ruby on Rails as a full stack web developer,
+           where I also build my professional communication skills, teamwork skills and problem-solving and analytical skills.
+           I have professional knowledge of HTML, CSS, JavaScript and Java, and an understanding of the project management and Moodle system.
+        </p>
       </div>
       <div class="main__briefing">
         <table class="main__table">
