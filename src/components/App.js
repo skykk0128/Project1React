@@ -1,56 +1,5 @@
 // import React from 'react';
 // import ReactDOM from 'react-dom';
-const NavbarItem = ({
-  href,
-  children,
-}) => {
-  return (
-    <a href={href} className="navbar__menuitems" id="homepage" data-id="1">{children}</a>
-  );
-}
-
-
-const Navbar = () => (
-  <ul className="navbar__menu">
-    <NavbarItem href="#home" children="Home"/>
-    <NavbarItem href="#about" children="About"/>
-    <NavbarItem href="#resume" children="Resume"/>
-    <NavbarItem href="#projects" children="Projects"/>
-    <NavbarItem href="#blog" children="Blog"/>
-    <NavbarItem href="#contact" children="Contact"/>
-  </ul>
-);
-
-const Logo = () => {
-  return (
-    <div className="logo__wcrown">
-      <div className="logo__wcrown--top">
-        <div className="logo__top">
-        </div>
-        <div className="logo__top">
-        </div>
-      </div>
-      <div className="logo__wcrown--bottom">
-      </div>
-    </div>
-    <div className="logo__s">
-      S
-    </div>
-  );
-}
-
-const Nav = () => (
-  <header className="navbar navstyle" id="header">
-    <div className="navbar__logo">
-      <Logo />
-    </div>
-    <nav>
-      <Navbar />
-    </nav>
-  </header>
-);
-
-
 
 const App = () => (
   <Nav />
