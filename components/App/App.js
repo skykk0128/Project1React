@@ -1,17 +1,14 @@
 // import React from 'react';
 // import ReactDOM from 'react-dom';
+import Nav from '../Nav/Nav';
 
 const App = () => (
-  <Nav />
+  <div>
+    <Nav />
+  </div>
 );
 
-
-ReactDOM.render(
-  <App />,
-  document.querySelector('#root'),
-);
-
-
+export default App;
 //
 // "use strict";
 //

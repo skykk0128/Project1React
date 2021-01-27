@@ -1,5 +1,14 @@
-'use strict';
-render();
+// render();
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+import App from './components/App/App';
+
+ReactDOM.render(
+  <App />,
+  document.querySelector('#root'),
+);
+
+
 // function switchPage(clicked) {
 //   const pages = ["homepage", "aboutpage", "resumepage", "projectspage", "contactpage", "blogpage"];
 //   document.getElementById(clickedPage).classList.add("current");
@@ -75,40 +84,40 @@ render();
 // });
 
 // Changeable Position
-const changePosition = () => {
-  window.switchIn = () => {
-    $('.main__position--developer').fadeToggle(() => {
-        $('.main__position--designer').fadeToggle(() => {
-            setTimeout(() => {window.switchOut();}, 3000);
-        });
-    });
-  }
-  window.switchOut = () => {
-    $('.main__position--designer').fadeToggle(() => {
-        $('.main__position--developer').fadeToggle(() => {
-            setTimeout(() => {window.switchIn();}, 3000);
-        });
-    });
-  }
-  setTimeout(() => {window.switchIn();}, 3000);
-}
-changePosition();
-
-// Sticky Navigation Bar
-const stickybar = () => {
-  var navbar = document.getElementById("header");
-  var sticky = navbar.offsetTop;
-  window.onscroll = () => {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky");
-      navbar.classList.remove("navstyle");
-    } else {
-      navbar.classList.remove("sticky");
-      navbar.classList.add("navstyle");
-    }
-  };
-}
-stickybar();
+// const changePosition = () => {
+//   window.switchIn = () => {
+//     $('.main__position--developer').fadeToggle(() => {
+//         $('.main__position--designer').fadeToggle(() => {
+//             setTimeout(() => {window.switchOut();}, 3000);
+//         });
+//     });
+//   }
+//   window.switchOut = () => {
+//     $('.main__position--designer').fadeToggle(() => {
+//         $('.main__position--developer').fadeToggle(() => {
+//             setTimeout(() => {window.switchIn();}, 3000);
+//         });
+//     });
+//   }
+//   setTimeout(() => {window.switchIn();}, 3000);
+// }
+// changePosition();
+//
+// // Sticky Navigation Bar
+// const stickybar = () => {
+//   var navbar = document.getElementById("header");
+//   var sticky = navbar.offsetTop;
+//   window.onscroll = () => {
+//     if (window.pageYOffset >= sticky) {
+//       navbar.classList.add("sticky");
+//       navbar.classList.remove("navstyle");
+//     } else {
+//       navbar.classList.remove("sticky");
+//       navbar.classList.add("navstyle");
+//     }
+//   };
+// }
+// stickybar();
 
 
 // $(document).ready(function(){

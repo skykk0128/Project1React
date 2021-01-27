@@ -1,3 +1,6 @@
+import Logo from './components/Logo/Logo';
+import Navbar from './components/Navbar/Navbar';
+
 const Nav = () => (
   <header className="navbar navstyle" id="header">
     <div className="navbar__logo">
@@ -8,3 +11,5 @@ const Nav = () => (
     </nav>
   </header>
 );
+
+export default Nav;
