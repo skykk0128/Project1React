@@ -5,7 +5,7 @@ $LG: 1366px;
 $MD: 1024px;
 // sass --watch src/scss/style.scss src/css/style.css
 body {
-  background-image: url('./src/assets/img/main_bg.png');
+  background-image: url('./components/assets/img/main_bg.png');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -137,7 +137,7 @@ footer > span > a {
     height: 300px;
     width: 300px;
     margin-left: 20px;
-    background-image: url("./src/assets/img/personal.jpg");
+    background-image: url("./assets/img/personal.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -189,7 +189,7 @@ footer > span > a {
   }
 }
 .titlebanner {
-  background: url('./src/assets/img/main_bg.png'), rgba(46, 202, 127, 1);
+  background: url('./components/assets/img/main_bg.png'), rgba(46, 202, 127, 1);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;

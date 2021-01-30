@@ -3,6 +3,7 @@ node_modules/
 dist/
 indexrender.html
 indexvanilla.html
+render.js
 index.ts
 package-lock.json
 package.json
