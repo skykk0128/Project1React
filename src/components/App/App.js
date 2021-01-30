@@ -1,12 +1,14 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
 import Nav from '../Nav/Nav';
 
-
 const App = () => (
-  <div>
-    <Nav />
-  </div>
+  <header className="navbar navstyle" id="header">
+    <div className="navbar__logo">
+      <Logo />
+    </div>
+    <nav>
+      <Navbar />
+    </nav>
+  </header>
 );
 
 export default App;
