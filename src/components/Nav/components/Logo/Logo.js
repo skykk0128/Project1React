@@ -1,6 +1,8 @@
+import './Logo.css';
+
 const Logo = () => {
   return (
-    <div>
+    <div className="navbar__logo">
       <div className="logo__wcrown">
         <div className="logo__wcrown--top">
           <div className="logo__top">

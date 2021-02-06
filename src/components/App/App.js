@@ -1,14 +1,22 @@
 import Nav from '../Nav/Nav';
+import './App.css';
 
 const App = () => (
-  <header className="navbar navstyle" id="header">
-    <div className="navbar__logo">
-      <Logo />
+  <div className="navbar__logo">
+    <div className="logo__wcrown">
+      <div className="logo__wcrown--top">
+        <div className="logo__top">
+        </div>
+        <div className="logo__top">
+        </div>
+      </div>
+      <div className="logo__wcrown--bottom">
+      </div>
     </div>
-    <nav>
-      <Navbar />
-    </nav>
-  </header>
+    <div className="logo__s">
+      S
+    </div>
+  </div>
 );
 
 export default App;

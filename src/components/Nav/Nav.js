@@ -1,12 +1,10 @@
 import Logo from './components/Logo/Logo';
 import Navbar from './components/Navbar/Navbar';
-import '../../style.css';
+import './Nav.css';
 
 const Nav = () => (
   <header className="navbar navstyle" id="header">
-    <div className="navbar__logo">
-      <Logo />
-    </div>
+    <Logo />
     <nav>
       <Navbar />
     </nav>
