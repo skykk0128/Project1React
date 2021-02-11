@@ -9,6 +9,8 @@ const App = () => (
 );
 
 export default App;
+
+// git log --graph --decorate --pretty=oneline --abbrev-commit 
 //
 // "use strict";
 //
