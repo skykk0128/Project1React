@@ -1,9 +1,11 @@
 import React from 'react';
 import Nav from '../Nav/Nav';
+import HomePage from '../Pages/HomePage/HomePage';
 import './App.css';
 
 const App = () => (
-  <Nav />
+  <Nav />,
+  <HomePage />
 );
 
 export default App;
