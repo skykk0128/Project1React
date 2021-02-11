@@ -1,4 +1,6 @@
-const NavbarItem = ({
+import React from 'react';
+
+const Item = ({
   href,
   children,
 }) => (

@@ -4,11 +4,7 @@ import App from './components/App/App';
 import './style.css';
 // render();
 
-ReactDOM.render(
-  <App />,
-  document.querySelector('root')
-);
-
+ReactDOM.render(<App />, document.getElementById("root"));
 
 // function switchPage(clicked) {
 //   const pages = ["homepage", "aboutpage", "resumepage", "projectspage", "contactpage", "blogpage"];
@@ -119,7 +115,6 @@ ReactDOM.render(
 //   };
 // }
 // stickybar();
-
 
 // $(document).ready(function(){
 //   $("#blogpage").click(function(){
